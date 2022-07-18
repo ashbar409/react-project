@@ -8,7 +8,11 @@ As a user of the Wikipedia for games such as Monster Hunter World, sometimes I d
 
 There will be a nav bar to jump to a section of information a user would need. Instead of using the Wiki's search bar to type in "armor sets" or "weapons" just click on the section you want to go to on the nav bar! 
 
-Who could forget though, the monsters. They are what the game is known for and built around after all! This website has a hunter's handbook just like in the game, but with even more information! This information includes what damage types the monster will do, items you can bring to heal any ailments it inflicts, it even shows armor you can make from it! There will also be a search bar that allows you to filter the monsters to only show ones you're looking for.
+Who could forget though, the monsters. They are what the game is known for and built around after all! This website has a hunter's handbook just like in the game, but with even more information! This information includes what damage types the monster will do, items you can bring to heal any ailments it inflicts, it even shows armor you can make from it!
+
+
+![Mock Up](https://user-images.githubusercontent.com/105743483/179528305-0895723d-dbe1-48b1-bbd0-8ccde07f88ac.PNG)
+
 
 ## MVP
 
