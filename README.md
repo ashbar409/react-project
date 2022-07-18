@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Monster Hunter React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using [Monster Hunter World API](https://mhw-db.com/ ) by [Tyler Lartonoix](https://github.com/LartTyler)
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+As a user of the Wikipedia for games such as Monster Hunter World, sometimes I don't want to wait for pages to load or scroll through search results just to find one item. To fix this, I aim to recreate it using React to improve loading times and navigation. 
 
-### `npm start`
+There will be a nav bar to jump to a section of information a user would need. Instead of using the Wiki's search bar to type in "armor sets" or "weapons" just click on the section you want to go to on the nav bar! 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Who could forget though, the monsters. They are what the game is known for and built around after all! This website has a hunter's handbook just like in the game, but with even more information! This information includes what damage types the monster will do, items you can bring to heal any ailments it inflicts, it even shows armor you can make from it!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![Mock Up](https://user-images.githubusercontent.com/105743483/179528305-0895723d-dbe1-48b1-bbd0-8ccde07f88ac.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## MVP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Nav Bar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Have links to home page, monsters, weapons, armor, and about
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Home Page
 
-### `npm run eject`
+Have a welcome message and short message about the webpage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Monsters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Have a list of monsters with a search to find a specific one, each one can be clicked on for more details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Monster
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Single monster with name, icon, and description
 
-## Learn More
+### Weapons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Have a list of weapons with a search to find a specific one, each one can be clicked on for more details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Weapon
 
-### Code Splitting
+Single weapon with more details and nav links to previous and next weapons in the tree
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Armors
 
-### Analyzing the Bundle Size
+Have a list of armor sets with a search to find specific ones, each one can be clicked on for more details on the armor and individual items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Armor Set
 
-### Making a Progressive Web App
+Individual armor set, with details on skills of the set and individual pieces
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Armor Piece
 
-### Advanced Configuration
+Individual piece of armor with details on skills it has
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### About
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contains information about the app, api, and development
