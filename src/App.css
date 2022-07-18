@@ -1,38 +1,171 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.ancient-forest{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/ancient-forest.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wildspire-waste{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/wildspire-waste.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coral-highlands{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/coral-highlands.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotten-vale{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/rotten-vale.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elder\'s-recess{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/elder\'s-recess.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.great-ravine{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/great-ravine.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confluence-of-fates{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/confluence-of-fates.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.everstream{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/everstream.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caverns-of-el-dorado{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/caverns-of-el-dorado.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.special-arena{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/special-arena.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arena{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/arena.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoarfrost-reach{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/hoarfrost-reach.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guiding-lands{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/guiding-lands.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secluded-valley{
+  margin: auto;
+  background-image: url("../public/assets/images/locations/secluded-valley.png");
+  background-size: 1280px 720px;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  background-color: #303030;
+  color: #ffffff
+}
+
+ul{
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
