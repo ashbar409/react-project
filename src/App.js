@@ -1,10 +1,10 @@
 import './App.css';
-import Monster from './components/Monster';
+import Monsters from './components/Monsters';
 
 function App() {
   return (
     <div className="App">
-      <Monster query='namielle' />
+      <Monsters />
     </div>
   );
 }
