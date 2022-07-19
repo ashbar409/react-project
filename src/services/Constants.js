@@ -11,3 +11,15 @@ export async function getAllMonsters(){
     console.log(response)
     return response
 }
+
+export async function getAllWeapons(){
+    const response = (await axios.get(`https://mhw-db.com/weapons`)).data
+    console.log(response)
+    return response
+}
+
+export async function getAllArmorSets(){
+    const response = (await axios.get(`https://mhw-db.com/armor/sets`)).data
+    console.log(response)
+    return response
+}
