@@ -1,5 +1,38 @@
+body{
+  background-color: #303030;
+  color: #303030;
+  background-image: url("../public/assets/images/paper-background.png");
+}
+
+button{
+  background-image: url("../public/assets/images/paper-background.png");
+  border-style: solid;
+  border-color: #ffffff;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-footer{
+  position: absolute;
+  bottom: 0;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -9,9 +42,16 @@
 .Monster-page{
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.description{
+  width: 1500px;
 }
 
 .navbar{
+  display: flex;
+  justify-content: center;
   font-size: larger;
   border: solid black;
   border-top-left-radius: 255px 15px;
@@ -40,6 +80,11 @@
   flex: 1;
   flex-basis: 30%;
   margin: 25px;
+}
+
+.ailments{
+  display: flex;
+  justify-content: center;
 }
 
 .ancient-forest{
@@ -207,28 +252,5 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-body{
-  background-color: #303030;
-  color: #ffffff;
-  background-image: url("../public/assets/images/paper-background.png");
-}
-
-button{
-  background-image: url("../public/assets/images/paper-background.png");
-  border-style: solid;
-  border-color: #ffffff;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  border-bottom-right-radius: 225px 15px;
-  border-bottom-left-radius:15px 255px;
-}
-
-ul{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   justify-content: center;
 }

@@ -37,7 +37,7 @@ function Monster() {
                 <img src={`${process.env.PUBLIC_URL}/assets/images/monsters/${monster.name.split(" ").join("-")}.png`} alt='not found'/>
             </div>
             <h1>{monster.name}</h1>
-            <p>{monster.description}</p>
+            <p className="description">{monster.description}</p>
 
             <h1>Weaknesses</h1>
             <ul>
@@ -60,10 +60,10 @@ function Monster() {
                 })}
             </ul>
             <h1>Ailments</h1>
-            <ul>
+            <ul className="ailments">
                 {monster.ailments.map((ailment, index) => {
                     return <li key={index}>
-                        <h3>{ailment.name}</h3>
+                        <h3 className="ailment">{ailment.name}</h3>
                         <p>{ailment.description}</p>
                     </li>
                 })}
