@@ -1,16 +1,19 @@
 import { useEffect, useState, useRef } from "react"
+import { useParams } from "react-router-dom"
 import { getMonsterSearch } from "../services/Constants"
 
-function Monster(props) {
+function Monster() {
 
-    const [monster, setMonster] = useState({})
+    const [monster, setMonster] = useState({name: "monster", locations: "ancient-forest", weaknesses: [], resistances: [], elements: [], ailments: []})
     const [location, setLocation] = useState('')
     const isMounted = useRef(false)
+    const {monster_id} = useParams()
 
     useEffect(() => {
         const fetchData = async () => { 
-            return await getMonsterSearch(props.query).then((response) => {
+            return await getMonsterSearch(monster_id).then((response) => {
                 setMonster(response)
+                isMounted.current = true;
             })
         }
         fetchData()
@@ -24,38 +27,47 @@ function Monster(props) {
             setLocation(result)
             console.log(location)
         } else {
-            isMounted.current = true;
+
         }
     }, [monster])
 
     return (
-        <div className="Monster">
+        <div className="Monster-page">
             <div className={location}>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/monsters/${props.query.split(" ").join("-")}.png`} alt='not found'/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/monsters/${monster.name.split(" ").join("-")}.png`} alt='not found'/>
             </div>
             <h1>{monster.name}</h1>
             <p>{monster.description}</p>
 
             <h1>Weaknesses</h1>
             <ul>
-                <li>Weakness</li>
+                {monster.weaknesses.map((weakness, index) => {
+                    return <li key={index}>{`${weakness.element}: ${weakness.stars}`}</li>
+                })}
             </ul>
 
             <h1>Resistances</h1>
             <ul>
-                <li>Resistance</li>
+                {monster.resistances.map((resistance, index) => {
+                    return <li key={index}>{`${resistance.element}`}</li>
+                })}
             </ul>
 
             <h1>Damage Types</h1>
             <ul>
-                <li>Damage</li>
+                {monster.elements.map((element, index) => {
+                    return <li key={index}>{element}</li>
+                })}
             </ul>
             <h1>Ailments</h1>
             <ul>
-                <li>Item to heal ailments</li>
+                {monster.ailments.map((ailment, index) => {
+                    return <li key={index}>
+                        <h3>{ailment.name}</h3>
+                        <p>{ailment.description}</p>
+                    </li>
+                })}
             </ul>
-
-            <h1>Armor</h1>
         </div>
     )
 }

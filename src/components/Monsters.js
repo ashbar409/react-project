@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react"
 import { getAllMonsters } from "../services/Constants"
 import MonsterList from "./MonsterList"
-import { useNavigate } from "react-router-dom"
 
 function Monsters(){
 
-    let navigate = useNavigate()
     const [monsters, setMonsters] = useState([])
 
     useEffect(() => {
@@ -16,19 +14,14 @@ function Monsters(){
         fetchData()
     }, [])
 
-    const changePage = (url) => {
-        navigate(url)
-    }
-
     return(
         <div className="monster-list">
             {monsters.map((monster, index) => {
                 return <div className="monster" key={monster.id}>
-                    <button>
-                        <MonsterList 
-                        name={monster.name} 
-                        key={index}/>
-                    </button>
+                    <MonsterList 
+                    name={monster.name} 
+                    id={monster.name}
+                    key={index}/>
                 </div>
             })}
         </div>

@@ -1,8 +1,28 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
+}
+
+.Monster-page{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  font-size: larger;
+  border: solid black;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+}
+
+.NavLink{
+  margin: 15px;
+  color: #303030;
 }
 
 .small-icon{
@@ -26,6 +46,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/ancient-forest.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -37,6 +58,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/wildspire-waste.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -48,6 +70,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/coral-highlands.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -59,6 +82,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/rotten-vale.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -70,6 +94,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/elder\'s-recess.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -81,6 +106,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/great-ravine.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -92,6 +118,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/confluence-of-fates.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -103,6 +130,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/everstream.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -114,6 +142,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/caverns-of-el-dorado.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -125,6 +154,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/special-arena.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -136,6 +166,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/arena.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -147,6 +178,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/hoarfrost-reach.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -158,6 +190,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/guiding-lands.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -169,6 +202,7 @@
   margin: auto;
   background-image: url("../public/assets/images/locations/secluded-valley.png");
   background-size: 1280px 720px;
+  width: 1280px;
   height: 720px;
   background-repeat: no-repeat;
   display: flex;
@@ -178,11 +212,23 @@
 
 body{
   background-color: #303030;
-  color: #ffffff
+  color: #ffffff;
+  background-image: url("../public/assets/images/paper-background.png");
+}
+
+button{
+  background-image: url("../public/assets/images/paper-background.png");
+  border-style: solid;
+  border-color: #ffffff;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
 }
 
 ul{
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
 }
