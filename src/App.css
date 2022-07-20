@@ -87,6 +87,13 @@ ul{
   justify-content: center;
 }
 
+.armor-sets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ancient-forest{
   margin: auto;
   background-image: url("../public/assets/images/locations/ancient-forest.png");

@@ -23,3 +23,9 @@ export async function getAllArmorSets(){
     console.log(response)
     return response
 }
+
+export async function getArmorSet(setName){
+    const response = (await axios.get(`https://mhw-db.com/armor/sets?q={"name":"${setName}"}`)).data[0]
+    console.log(response)
+    return response
+}

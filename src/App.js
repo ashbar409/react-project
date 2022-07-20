@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Monster from './components/Monster';
 import Monsters from './components/Monsters';
 import Armors from './components/Armors'
+import ArmorSet from './components/ArmorSet'
 import Weapons from './components/Weapons'
 import About from './components/About'
 import NoMatch from './components/NoMatch';
@@ -26,7 +27,7 @@ function App() {
       <Route path='/monsters' element={<Monsters />} />
       <Route path='/monsters/:monster_id' element={<Monster />} />
       <Route path='/armor' element={<Armors />}/>
-
+      <Route path='/armor/:armor_id' element={<ArmorSet />}/>
       <Route path='/weapon' element={< Weapons />} />
       
       <Route path='/about' element={<About />} />
