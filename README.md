@@ -1,4 +1,4 @@
-# Monster Hunter React
+# Monster Hunter's Handbook
 
 Using [Monster Hunter World API](https://mhw-db.com/ ) by [Tyler Lartonoix](https://github.com/LartTyler)
 
