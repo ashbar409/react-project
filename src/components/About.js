@@ -10,6 +10,12 @@ function About () {
             With armor, users can see what skills each armor set has and which pieces the skills come from. With Weapons, the player can find a list of weapons.</p> 
             <footer id="about-footer">
                 <h3>Built by Ash Barker using React, React Router, and Axios</h3>
+                <a href="https://github.com/ashbar409/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" width="50" height="50"/>
+                </a>
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="" width="50" height="50" />
+                </a>
             </footer>
         </div>
     )
