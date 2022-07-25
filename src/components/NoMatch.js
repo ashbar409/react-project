@@ -5,7 +5,7 @@ function NoMatch () {
     const navigate = useNavigate()
 
     return (
-        <div>
+        <div className="flex">
             <h1>404 Page Not Found</h1> 
             <img src={`${process.env.PUBLIC_URL}/assets/images/unknown.png`} alt=""/>
             <h3>The Hunter's Guild still needs more research on that page!</h3>
