@@ -18,16 +18,16 @@ function ArmorSet () {
     }, [])
 
     return(
-        <div>
+        <div className="flex">
             {armorSet.map((armor, index) => {
-                return (<div key={index}>
+                return (<div key={index} className="flex">
                     <h2>{armor.name}</h2>
                     {armor.skills.map((skill, index) => {
                       return (
                         <div>
-                            <h3>{skill.skillName}</h3>
-                            <h4>Level: {skill.level}</h4>
-                            <p>{skill.description}</p>
+                            <h3 className="skill">{skill.skillName}</h3>
+                            <h4 className="skill">Level: {skill.level}</h4>
+                            <p className="skill">{skill.description}</p>
                         </div>
                       )  
                     })}

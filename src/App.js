@@ -29,7 +29,6 @@ function App() {
       <Route path='/armor' element={<Armors />}/>
       <Route path='/armor/:armor_id' element={<ArmorSet />}/>
       <Route path='/weapon' element={< Weapons />} />
-      
       <Route path='/about' element={<About />} />
       <Route path='*' element={<NoMatch />}/>
     </Routes>

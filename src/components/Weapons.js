@@ -14,7 +14,7 @@ function Weapons () {
     }, [])
 
     return(
-        <div>
+        <div className="flex">
             {weapons.map((weapon, index) => {
                 return (<div className="Weapon" key={index}> 
                     <h3>{weapon.name}</h3>

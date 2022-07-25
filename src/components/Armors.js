@@ -20,9 +20,9 @@ function Armors () {
         <div className="armor-sets">
             {armorSets.map((armorSet, index) => {
                 return (
-                    <div key={index}> 
+                    <div key={index} className="flex"> 
                         <h1>{armorSet.name}</h1>
-                        <button onClick={() => navigate(`./${armorSet.name.toLowerCase()}`)}>Go to set</button>
+                        <button onClick={() => navigate(`./${armorSet.name.toLowerCase()}`)}>Go to {armorSet.name} set</button>
                     </div>
                 )
             })}
