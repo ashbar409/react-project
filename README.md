@@ -4,7 +4,7 @@ Using [Monster Hunter World API](https://mhw-db.com/ ) by [Tyler Lartonoix](http
 
 ## The Website
 
-[See the site in action here!](https://glistening-cactus-533fd0.netlify.app)
+[See the site in action here!](https://hunters-handbook.netlify.app)
 
 ## About
 
