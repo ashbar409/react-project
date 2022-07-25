@@ -34,7 +34,7 @@ function Monster() {
     return (
         <div className="Monster-page">
             <div className={location}>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/monsters/${monster.name.split(" ").join("-")}.png`} alt='not found'/>
+                <img className="monster-icon" src={`${process.env.PUBLIC_URL}/assets/images/monsters/${monster.name.split(" ").join("-")}.png`} alt='not found'/>
             </div>
             <h1>{monster.name}</h1>
             <p className="description">{monster.description}</p>
