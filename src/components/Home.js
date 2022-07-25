@@ -1,7 +1,7 @@
 function Home () {
 
     return(
-        <div>
+        <div className="flex">
             <h1>Welcome to the Hunter's Handbook</h1>
             <h3>Click on a section above to get your research started!</h3>
         </div>
