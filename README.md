@@ -14,6 +14,9 @@ Who could forget though, the monsters. They are what the game is known for and b
 ![Mock Up](https://user-images.githubusercontent.com/105743483/179528305-0895723d-dbe1-48b1-bbd0-8ccde07f88ac.PNG)
 
 
+![Hunter's Handbook Hierarchy](https://user-images.githubusercontent.com/105743483/180781199-fd59b50e-62e0-43d4-904c-1df77e803cf4.png)
+
+
 ## MVP
 
 ### Nav Bar
